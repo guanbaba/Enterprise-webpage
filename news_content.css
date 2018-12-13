@@ -1,0 +1,14 @@
+.news_title{
+	text-align: center;
+	margin: 10px 0;
+}
+.news_info{
+	text-align: center;
+	color: gray;
+	border-bottom: 1px dashed gray;
+}
+.news_detail{
+	font-size: 14px;
+	padding: 20px;
+	text-indent: 2em;
+}

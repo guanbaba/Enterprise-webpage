@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background-color: white;
+}
+.head{
+	height: 70px;
+	margin: 5px 0;
+}
+.head:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.logo{
+	float: left;
+}
+.navigate{
+	float: left;
+}
+.navigate ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.navigate li{
+	float: left;
+	list-style-type: none;
+}
+.navigate li a{
+	width: 100px;
+	height: 70px;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 70px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-weight: normal;
+}
+.navigate li a:hover,.navigate li a:active{
+	background-color: darkred;
+	font-weight: bold;
+}
+.pic_box{
+	width: 1000px;
+	height: 310px;
+	overflow: hidden;
+}
+.scroll_news{
+	margin: 10px 0;
+}
+.scroll_news:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.scroll_news_title{
+	width: 20%;
+	height: 30px;
+	background-color: darkred;
+	float: left;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+.scroll_news_content{
+	width: 80%;
+	height: 30px;
+	background-color: black;
+	float: left;
+	color: white;
+	text-align: left;
+	line-height: 30px;
+	text-indent: 2em;
+}
+.course{
+	margin: 10px 0;
+}
+.course ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.course_list li{
+	float: left;
+	list-style-type: none;
+	width: 330px;
+	border: 1px solid lightgray;
+}
+.course_list li:nth-child(2){	/*第一个元素下标是1*/
+	margin: 0 2px;
+}
+.course_list li h2{
+	font-size: 14px;
+	font-weight: normal;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.news,.activity,.info{
+	width: 330px;
+	height: 250px;
+	float: left;
+	border: 1px solid lightgray;
+}
+.news_activity_info:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.activity{
+	margin: 0 2px;
+}
+.title{
+	height: 30px;
+	background: darkred;
+	font-size: 14px;
+	font-weight: normal;
+	color: white;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.news ul li{
+	margin: 0 5px;
+	padding: 5px 0; 
+	height: 60px;
+	list-style-type: none;
+	border-bottom: 1px solid lightgray;
+}
+.date{
+	float: left;
+	width: 60px;
+	height: 50px;
+	padding-top: 10px;
+	background-color: darkred;
+	color: white;
+	border-radius: 8px;
+	text-align: center;
+}
+.news_content{
+	float: left;
+	width: 255px;
+	height: 50px;
+	padding-left: 5px;
+}
+.news_content h2{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.news_content p{
+	font-size: 12px;
+}
+.activity_content{
+	padding: 20px 20px 0 20px;
+}
+.activity_content img{
+	width: 290px;
+	height: 100px
+}
+.info_content{
+	padding: 5px;
+}
+.info_content div:nth-child(2){
+	margin-top: 20px;
+}
+.footer{
+	height: 30px;
+	margin: 5px 0 30px 0;
+	padding-top: 10px;
+	background-color: lightgray;
+}
+.footer p{
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+}
